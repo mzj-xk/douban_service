@@ -13,5 +13,5 @@ const Movie = seq.define('movie', {
   }
 })
 
-Movie.sync({ force: true })
+// Movie.sync({ force: true })
 module.exports = Movie
